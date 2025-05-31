@@ -104,6 +104,28 @@ footer {
     text-decoration: none;
 }
 
+.me{
+    text-align: center;
+}
+
+.hobbies{
+    text-align: center;
+    position: relative;
+}
+
+.projects{
+    text-align: center;
+}
+
+.in-touch{
+    text-align: center;
+}
+
+.number{
+    text-align: right;
+    text-shadow: #ffffff;
+}
+
 
 
 
