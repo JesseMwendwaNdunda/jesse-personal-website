@@ -1,1 +1,109 @@
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fefefe;
+    color: #333;
+    margin-right: 200px;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 215px;
+    height: 100%;
+    background: linear-gradient(to bottom right, #ff6f61, #ffcc70);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    color: white;
+    z-index: 1000;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+}
+
+ .list {
+    margin: 15px 0;
+    text-align: center;
+}
+
+a {
+    color: rgb(7, 46, 189);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
+     background: rgba(255, 255, 255, 0.2);
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+h2, h3 {
+    color: #ff6f61;
+}
+
+h4 {
+    margin-top: 15px;
+    color: #f34718;
+}
+
+
+p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    background: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  
+}
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #ff6f61;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    margin-top: 40px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+
+.Moringa-link{
+    color: #0077cc;
+    text-decoration: none;
+}
+
+
+
+
